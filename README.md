@@ -1,2 +1,2 @@
 # travello
-first django projcet
+first django project with postgreSQL
