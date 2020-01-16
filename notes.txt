@@ -1,0 +1,15 @@
+make migration to database
+    python manage.py makemigrations
+
+run the migration
+    python manage.py sqlmigrate travello 0001
+creating table in postgres
+    python manage.py migrate
+
+using pillow to handle image imput
+    pip3 install pillow
+
+creating new page to add new model
+    edit admin.py then add model you just craeted
+
+

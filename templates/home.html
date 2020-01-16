@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Hello {{name}} !!!!</h1>
+
+<form action="add" method="POST">
+    {% csrf_token %}
+    <label for="">input first number</label>
+    <input type="number" name="number1" >
+    <label for="">input second number</label>
+    <input type="number" name="number2" >
+    <label for="">input third number</label>
+    <input type="number" name="number3" >
+    <input type="submit"   value="add">
+</form>
+
+{% endblock %}
